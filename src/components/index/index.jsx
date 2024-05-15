@@ -35,7 +35,7 @@ function Index() {
           </form>
         </section>
         <section className="top-deal" style={{ backgroundImage: 'url(https://picsum.photos/1200/800?image=164)' }}>
-          <Link to="#">
+          <Link to="Destination/France/Paris">
             <div className="top-deal__content">
               <h2>Deal of the day</h2>
               <div className="top-deal__content-bottom">
@@ -54,9 +54,9 @@ function Index() {
           {/* start destination */}
           <div className="destination">
             <div className="destination__background" style={{ backgroundImage: 'url(https://picsum.photos/1200/800?image=1067)' }}>
-              <Link to="#">
+              <Link to="Destination/France/Paris">
                 <div className="destination__content">
-                  <h3 className="destination__city">Sydney</h3>
+                  <h3 className="destination__city">Paris</h3>
                   <div className="destination__content-bottom">
                     <span className="destination__info">Hotel Calypso</span>
                     <span className="destination__duration">1 week</span>
@@ -67,30 +67,121 @@ function Index() {
             </div>
           </div>
           {/* end destination */}
-          {/* Repeat similar structure for other destinations */}
+          {/* start destination */}
+        <div className="destination">
+          <div className="destination__background" style={{ backgroundImage: "url('https://picsum.photos/1200/800?image=993')" }}>
+            <Link to="Destination/France/Paris">
+              <div className="destination__content">
+                <h3 className="destination__city">Rio</h3>
+                <div className="destination__content-bottom">
+                  <span className="destination__info">Hotel Calypso</span>
+                  <span className="destination__duration">1 week</span>
+                </div>
+                <span className="destination__content-price">150€</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+        {/* end destination */}
+        {/* start destination */}
+        <div className="destination">
+          <div className="destination__background" style={{ backgroundImage: "url('https://picsum.photos/1200/800?image=990')" }}>
+            <Link to="Destination/France/Paris">
+              <div className="destination__content">
+                <h3 className="destination__city">Cusco</h3>
+                <div className="destination__content-bottom">
+                  <span className="destination__info">Hotel Calypso</span>
+                  <span className="destination__duration">1 week</span>
+                </div>
+                <span className="destination__content-price">150€</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+        {/* end destination */}
+        {/* start destination */}
+        <div className="destination">
+          <div className="destination__background" style={{ backgroundImage: "url('https://picsum.photos/1200/800?image=984')" }}>
+            <Link to="Destination/France/Paris">
+              <div className="destination__content">
+                <h3 className="destination__city">New Delhi</h3>
+                <div className="destination__content-bottom">
+                  <span className="destination__info">Hotel Calypso</span>
+                  <span className="destination__duration">1 week</span>
+                </div>
+                <span className="destination__content-price">150€</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+        {/* end destination */}
+        {/* start destination */}
+        <div className="destination">
+          <div className="destination__background" style={{ backgroundImage: "url('https://picsum.photos/1200/800?image=944')" }}>
+            <Link to="Destination/France/Paris">
+              <div className="destination__content">
+                <h3 className="destination__city">Hong Kong</h3>
+                <div className="destination__content-bottom">
+                  <span className="destination__info">Hotel Calypso</span>
+                  <span className="destination__duration">1 week</span>
+                </div>
+                <span className="destination__content-price">150€</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+        {/* end destination */}
+        {/* start destination */}
+        <div className="destination">
+          <div className="destination__background" style={{ backgroundImage: "url('https://picsum.photos/1200/800?image=929')" }}>
+            <Link to="Destination/France/Paris">
+              <div className="destination__content">
+                <h3 className="destination__city">Katmandou</h3>
+                <div className="destination__content-bottom">
+                  <span className="destination__info">Hotel Calypso</span>
+                  <span className="destination__duration">1 week</span>
+                </div>
+                <span className="destination__content-price">150€</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+        {/* end destination */}
+        {/* start destination */}
+        <div className="destination">
+          <div className="destination__background" style={{ backgroundImage: "url('https://picsum.photos/1200/800?image=896')" }}>
+            <Link to="Destination/France/Paris">
+              <div className="destination__content">
+                <h3 className="destination__city">Tokyo</h3>
+                <div className="destination__content-bottom">
+                  <span className="destination__info">Hotel Calypso</span>
+                  <span className="destination__duration">1 week</span>
+                </div>
+                <span className="destination__content-price">150€</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+        {/* end destination */}
+        {/* start destination */}
+        <div className="destination">
+          <div className="destination__background" style={{ backgroundImage: "url('https://picsum.photos/1200/800?image=867')" }}>
+            <Link to="Destination/France/Paris">
+              <div className="destination__content">
+                <h3 className="destination__city">Lisbonne</h3>
+                <div className="destination__content-bottom">
+                  <span className="destination__info">Hotel Calypso</span>
+                  <span className="destination__duration">1 week</span>
+                </div>
+                <span className="destination__content-price">150€</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+        {/* end destination */}
         </div>
         <div className="destination__see-more">
-          <button type="button">See more</button>
-        </div>
-      </section>
-      <section className="home-section-3">
-        <div className="ecommerce-icons">
-          <div className="ecommerce-icon">
-            <img src="./assets/images/calculator.png" alt="calculator" />
-            <span>Compare prices</span>
-          </div>
-          <div className="ecommerce-icon">
-            <img src="./assets/images/discount.png" alt="discount" />
-            <span>Get the best deals</span>
-          </div>
-          <div className="ecommerce-icon">
-            <img src="./assets/images/support.png" alt="support" />
-            <span>7/7 support</span>
-          </div>
-          <div className="ecommerce-icon">
-            <img src="./assets/images/online-payment.png" alt="online payment" />
-            <span>Secure online payment</span>
-          </div>
+          <Link to="Destination"><button type="button">See more</button></Link>
         </div>
       </section>
     </main>
